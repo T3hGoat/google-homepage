@@ -1,0 +1,68 @@
+.searcharea{
+    display: inline-flex;
+    padding-top: 1.5em;
+    padding-left: 1.25em;
+}
+
+.searcharea img{
+    max-height: 92px;
+    width: 100%;
+}
+
+.glogo{
+    padding-right: 3em;
+}
+
+/*Add the rounding on the corners!!!*/
+ .search{
+   border-radius: 50px 15px 15px 15px; 
+    text-align: center;
+}
+
+nav{
+    justify-content: flex-start;
+}
+
+.searchnav-r{
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.nav-r{
+    padding-left: 3em;
+}
+
+.nav-l{
+    padding-left: 11.5em;
+}
+
+.bannerbar{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.banner-nav-r{
+    padding-top: 2em;
+
+}
+
+.main-a{
+    display: flex;
+    padding-left: 11.5em;
+    padding-top: 1.5em;
+    flex-direction: column;
+    width: 592px;
+}
+
+.content{
+    padding-bottom: 2em;
+}
+
+a{
+    color: blue;
+}
+
+h5 {
+    color: rgb(22, 46, 32);
+}
