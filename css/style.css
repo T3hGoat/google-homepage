@@ -1,7 +1,7 @@
 body {
-    height: 100%;
     font-family: arial,sans-serif;
     color: gray;
+    font-size: 16px;
 }
 
 .feature{
@@ -40,11 +40,7 @@ footer span{
 
 span {
     padding: 1em;
-    font-size: 13px;
-}
-
-span:hover{
-    text-decoration-line: underline;
+    font-size: 0.9em;
 }
 
 .search{
@@ -56,6 +52,10 @@ span:hover{
 input#searchbar{
     width: 520px;
     height: 34px;
+}
+
+input{
+    font: 400 13px Arial;
 }
 
 .buttons{
@@ -81,6 +81,6 @@ input#searchbar{
     -webkit-text-fill-color: rgb(0, 0, 0);
 }
 
-input{
-    font: 400 13px Arial;
+span:hover{
+    text-decoration-line: underline;
 }
